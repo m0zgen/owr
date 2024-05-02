@@ -1,12 +1,21 @@
 # OWS
 
-OISD wildcards to Go (re2) regex
+Wildcard listed domains list to Go (re2) regex converter.
 
-Example:
+## Features
+
+- Different sourses (file or URL)
+- Output to file or stdout
+- Multi thread processing
+
+## Example
+
+Process a URL and save the result to a file:
 
 ```shell
 $ ./owr.py https://small.oisd.nl/domainswild /path/to/dest/hosts.txt
 ```
+### Results
 
 Input:
 
@@ -20,7 +29,3 @@ Output:
 /(^|^.*\.)example.(com)/
 ```
 
-## Ref
-
-- https://oisd.nl/setup
-- https://github.com/google/re2/wiki/Syntax
