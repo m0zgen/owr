@@ -1,4 +1,4 @@
-# OWS
+# OWR
 
 Wildcard listed domains list to Go (re2) regex converter.
 
